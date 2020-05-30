@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.elx-lotay {
+	position: relative;
+  width: 300px;
+  height: 540px;
+  background-color: #006dca;
+  margin-left: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+	float: left;
+}
+.diamond-model{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background-image: radial-gradient(14px,#fff , #cb9400);
+	
+	border: .3px solid #ccc;
+}
+.main{
+	padding-left: 350px;
+	width: 80px;
+}
+.bottom-model{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background-image: radial-gradient(14px,#fff , red);
+	border: .3px solid #eee;
+}
+#scores{
+	padding: 20px 0;
+}
+.ok,.set,.get{
+	/* display: block; */
+	/* float: left; */
+	margin-top: 20px;
+	width: 60px;
+	height: 40px;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+}
